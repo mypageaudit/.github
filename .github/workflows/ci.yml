@@ -1,0 +1,18 @@
+name: Community content checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate profile asset and community files
+        run: |
+          python - <<'PYTHON'
+          from pathlib import Path
+          from xml.etree import ElementTree
+          ElementTree.parse('profile/avatar.svg')
+          for name in ('profile/README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'PULL_REQUEST_TEMPLATE.md', 'ISSUE_TEMPLATE/bug.yml', 'ISSUE_TEMPLATE/feature.yml'):
+              assert Path(name).read_text().strip(), name
+          PYTHON

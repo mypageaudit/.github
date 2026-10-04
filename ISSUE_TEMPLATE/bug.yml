@@ -1,0 +1,31 @@
+name: Bug report
+description: Report reproducible application behavior
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include passwords, tokens, cookies, customer exports or private logs. Share a request ID and sanitized details.
+  - type: input
+    id: version
+    attributes:
+      label: Release and component
+      placeholder: frontend commit, backend image digest, browser
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: input
+    id: request
+    attributes:
+      label: Request ID (if available)

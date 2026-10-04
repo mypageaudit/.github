@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="MyPageAudit"><rect width="512" height="512" rx="112" fill="#ffffff"/><g transform="translate(64 64) scale(6)">  <path d="M29 6H15a7 7 0 0 0-7 7v34a7 7 0 0 0 7 7h11M35 6v15h15L35 6Z" fill="none" stroke="#2563eb" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 22h9M18 32h8M18 42h5" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="39" cy="40" r="13" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <path d="m49 50 9 9" stroke="#2563eb" stroke-width="6" stroke-linecap="round"/>
+  <path d="m33 40 4 4 8-9" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g></svg>
