@@ -19,7 +19,7 @@ Open the organization's **Settings → Profile**, enter a description, and save 
 
 Suggested description:
 
-> Website audits with per-page SEO checks, clear evidence, and practical recommendations.
+> Free-beta website audits with HTML checks, clear evidence and branded reports.
 
 Use **MyPageAudit** as the display name. Add `https://mypageaudit.com` as the website when the domain points to a working site.
 
@@ -27,7 +27,7 @@ The description is independent of the README. Editing Markdown will not change t
 
 ## 3. Upload the organization avatar
 
-In the same profile settings, use **Upload new picture** and select [profile/avatar.png](../profile/avatar.png). Save the change when prompted.
+In the same profile settings, use **Upload new picture** and select the updated check-matrix [profile/avatar.png](../profile/avatar.png). Save the change when prompted.
 
 The image in the README is a separate display of the same logo. Committing the image does not replace GitHub's generated organization avatar automatically.
 
@@ -35,7 +35,7 @@ The image in the README is a separate display of the same logo. Committing the i
 
 - Update [the public introduction](../profile/README.md) when features ship or repository names change.
 - Keep future goals clearly identified as plans.
-- Use the [organization repository](https://github.com/mypageaudit/organization) for detailed product planning and release notes.
+- Use [product](https://github.com/mypageaudit/product) for product planning and [organization](https://github.com/mypageaudit/organization) for engineering releases. Remote settings are not changed by editing local files.
 - Keep deployment instructions in the relevant implementation repositories.
 
 For a members-only Overview README, GitHub requires a separate private `.github-private` repository containing `profile/README.md`. The public `.github` repository can continue serving the visitor profile and shared community files.
